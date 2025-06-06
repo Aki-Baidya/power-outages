@@ -7,6 +7,7 @@ By: Aki Baidya and Dhruv Sehgal
 
 
 ## Introduction
+
 We chose to analyze a dataset containing data about major power outages in the continental U.S. We acquired this dataset from the 'Laboratory for Advancing Sustainable Critical Infrastructure' at Purdue University. It records data from January 2000 to July 2016. The Department of Energy defines ‘major’ power outages to be those that affect at least 50,000 customers or cause an unplanned firm load loss of at least 300 MW. Other than just power outage information (such as outage start and end time, outage duration, and cause), it also contains other data such as geographic region, climate of the region, scale of the outage, land-use patterns, and economic characteristics of the region.
 <br>
 Our research question is, “What variables affect the duration of a power outage?” We wish to analyze this so that power companies and urban planning companies can better create infrastructure to prepare better for unexpected events. Since our dataset also contains data such as economic characteristics of a region and land-use patterns, this would also help us understand which populations are more likely to spend large periods of time without power, such as historically underserved and marginalized communities.
