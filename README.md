@@ -46,6 +46,13 @@ There are 1534 rows in our dataset with 55 columns (variables). We plan to focus
 2. We convert ‘OUTAGE.START.DATE’ and ‘OUTAGE.RESTORATION.DATE’ to a format that we can convert to a date.
 3. We combine ‘OUTAGE.START.DATE’ and ‘OUTAGE.START.TIME’ to a pd.Timestamp and do the same ‘OUTAGE.RESTORATION.DATE’ and ‘OUTAGE.RESTORATION.TIME’. We would most likely mostly work with the .time, but would want to keep .date for power outages than span more than a day.
 3. 
+| | `'U.S._STATE'` | `’NERC.REGION’` | `’CLIMATE.REGION’` | `'OUTAGE.START.DATE'` | `’OUTAGE.START.TIME’` | `’OUTAGE.RESTORATION.DATE’` | `’OUTAGE.RESTORATION.TIME’` | `’CAUSE.CATEGORY’` | `’OUTAGE.DURATION’` | `’RES.PERCEN’` | `’COM.PERCEN’` | `’IND.PERCEN’` | `’PC.REALGSP.REL’` | `’POPPCT_URBAN’` |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | `’Minnesota’` | MRO | East North Central | severe weather | 3060.0 | 35.55 | 32.23 | 32.20 | 1.08 | 73.27 | 2011-07-01 17:00:00 | 2011-07-03 20:00:00 |
+| 2 | `’Minnesota’` | MRO | East North Central | intentional attack | 1.0 | 30.03 | 34.21 | 35.73 | 1.09 | 73.27 | 2014-05-11 18:38:00 | 2014-05-11 18:39:00 |
+| 3 | `’Minnesota’` | MRO | East North Central | severe weather | 3000.0 | 28.10 | 34.50 | 37.37 | 1.07 | 73.27 | 2010-10-26 20:00:00 | 2010-10-28 22:00:00 |
+| 4 | `’Minnesota’` | MRO | East North Central | severe weather | 2550.0 | 31.99 | 33.54 | 34.44 | 1.07 | 73.27 | 2012-06-19 04:30:00 | 2012-06-19 23:00:00 |
+| 5 | `’Minnesota’` | MRO | East North Central | severe weather | 1740.0 | 33.98 | 36.21 | 29.78 | 1.09 | 73.27 | 2015-07-18 02:00:00 | 2015-07-19 07:00:00 |
 
 
 ### Univariate Analysis
