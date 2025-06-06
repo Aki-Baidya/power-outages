@@ -17,24 +17,18 @@ There are 1534 rows in our dataset with 55 columns (variables). We plan to focus
 | Column | Description |
 | --- | --- |
 | `'U.S._STATE'` | State the outage occurred in |
-| `’NERC.REGION’` | The North American Electric Reliability Corporation (NERC) regions involved
-in the outage event |
-| `’CLIMATE.REGION’` | U.S. Climate regions specified by National Centers for Environmental
-Information |
+| `’NERC.REGION’` | The North American Electric Reliability Corporation (NERC) regions involved in the outage event |
+| `’CLIMATE.REGION’` | U.S. Climate regions specified by National Centers for Environmental Information |
 | `’OUTAGE.START.TIME’` | Time of day when the outage started
 | `’OUTAGE.RESTORATION.TIME’` | Time of day when power was restored |
 | `’CAUSE.CATEGORY’` | Cause of the power outage |
 | `’CAUSE.CATEGORY.DETAIL’` | Extra details about the cause if applicable |
 | `’OUTAGE.DURATION’` | Duration of the power outage in minutes |
-| `’RES.PERCEN’` | Percentage of residential electricity consumption compared to the total
-electricity consumption in the state (in %) |
-| `’COM.PERCEN’` | Percentage of commercial electricity consumption compared to the total
-electricity consumption in the state (in %) |
-| `’IND.PERCEN’` | Percentage of industrial electricity consumption compared to the total
-electricity consumption in the state (in %) |
+| `’RES.PERCEN’` | Percentage of residential electricity consumption compared to the total electricity consumption in the state (in %) |
+| `’COM.PERCEN’` | Percentage of commercial electricity consumption compared to the total electricity consumption in the state (in %) |
+| `’IND.PERCEN’` | Percentage of industrial electricity consumption compared to the total electricity consumption in the state (in %) |
 | `’PC.REALGSP.REL’` | Relative per capita real GSP as compared to the total per capita real GDP of the U.S. (fraction) |
-| `’POPPCT.URBAN’` | Percentage of the total population of the U.S. state represented by the urban
-population (in %) |
+| `’POPPCT.URBAN’` | Percentage of the total population of the U.S. state represented by the urban population (in %) |
 
 
 
