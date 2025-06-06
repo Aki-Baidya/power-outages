@@ -47,14 +47,16 @@ There are 1534 rows in our dataset with 55 columns (variables). We plan to focus
 3. We combine ‘OUTAGE.START.DATE’ and ‘OUTAGE.START.TIME’ to a pd.Timestamp and do the same ‘OUTAGE.RESTORATION.DATE’ and ‘OUTAGE.RESTORATION.TIME’. We would most likely mostly work with the .time, but would want to keep .date for power outages than span more than a day.
 3. 
 
+---
 
 ### Univariate Analysis
 
+---
 
 
 ### Bivariate Analysis
 
-
+---
 
 ### Interesting Aggregates
 
