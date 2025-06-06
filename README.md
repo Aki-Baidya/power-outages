@@ -2,9 +2,7 @@
 Final Project in DSC 80 at UC San Diego<br>
 By: Aki Baidya and Dhruv Sehgal
 
-
 ---
-
 
 ## Introduction
 
