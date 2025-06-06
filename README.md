@@ -10,6 +10,8 @@ We chose to analyze a dataset containing data about major power outages in the c
 Our research question is, “What variables affect the duration of a power outage?” We wish to analyze this so that power companies and urban planning companies can better create infrastructure to prepare better for unexpected events. Since our dataset also contains data such as economic characteristics of a region and land-use patterns, this would also help us understand which populations are more likely to spend large periods of time without power, such as historically underserved and marginalized communities.
 
 There are 1534 rows in our dataset with 55 columns (variables). We plan to focus mainly on these variables:
+| Column | Description |
+| --- | --- |
 | `'U.S._STATE'` | State the outage occurred in |
 
 ---
