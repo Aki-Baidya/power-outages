@@ -132,7 +132,7 @@ In our cleaned dataset, the only column with missing values is `'CLIMATE.REGION'
 
 ### Missingness Dependency
 
-We first checked for columns that missingness of `'CLIMATE.REGION'` does not depend on. We test `'PC.REALGSP.REL'`. We can say the null is there is no relation, and the alternate is that there is a relation. We used a permutation test, and used the absolute difference of means of `'CLIMATE.REGION'` for non-missing and missing values as the test-statistic. We agreed on a p-value of 0.05, since our dataset contains ~1500 rows and we are only using a 1000 repetitions. We got a p-value of 0.91, which is much more than the p-value and hence we can safely conclude that there is no relation between `'CLIMATE.REGION'` missingnessand `'PC.REALGSP.REL'`
+We first checked for columns that missingness of `'CLIMATE.REGION'` does not depend on. We test `'PC.REALGSP.REL'`. We can say the null is there is no relation, and the alternate is that there is a relation. We used a permutation test, and used the absolute difference of means of `'CLIMATE.REGION'` for non-missing and missing values as the test-statistic. We agreed on a p-value of 0.05, since our dataset contains ~1500 rows and we are only using a 1000 repetitions. We got a p-value of 0.91, which is much more than the p-value and hence we can safely conclude that there is no relation between `'CLIMATE.REGION'` missingnessa nd `'PC.REALGSP.REL'`
 
 <iframe
   src="assets/cli_mi.html"
@@ -142,7 +142,7 @@ We first checked for columns that missingness of `'CLIMATE.REGION'` does not dep
 ></iframe>
 
 
-We then checked for a column that the missingness of `'CLIMATE.REGION'` did depend on. Looking at our columns, the one that seemed the closest was `'NERC.REGION'`. We used the same null and alternate as above. Using a permutation test over 1000 repetitions, we got a p-value of 0.00, which is much lower than our agreed p-value of 0.05. Hence, we reject the null and conclude that there is a relation between missingness of `'CLIMATE.REGION'` and `'NERC.REGION'`.
+We then checked for a column that the missingness of `'CLIMATE.REGION'` did depend on. Looking at our columns, the one that seemed the closest was `'NERC.REGION'`. We used the same null and alternate as above. Using a permutation test over 1000 repetitions, we got a p-value of 0.00, which is much lower than our agreed p-value of 0.05. Hence, we reject the null and conclude the possibility that there is a relation between missingness of `'CLIMATE.REGION'` and `'NERC.REGION'`.
 
 <iframe
   src="assets/sim_chi.html"
@@ -157,6 +157,25 @@ We then checked for a column that the missingness of `'CLIMATE.REGION'` did depe
 
 
 ## Hypothesis Testing
+
+**Null Hypothesis**: Outage Durations are equal in length regardless of whether the majority of electricity consumption in the state is residential or industrial
+
+**Alternate Hypothesis**: Outage Durations are longer when the majority of electricity consumption in the state is residential, as compared to industrial
+
+I define the majority to be more than 50%. Hence, we would be comparing `'OUTAGE.DURATION'` across rows with `'RES.PERCEN' > 50.0` and `'IND.PERCEN' > 50.0`.
+
+Our text statistic would be subtracting the mean `'OUTAGE.DURATION'` of industrially dominated states from the mean `'OUTAGE.DURATION'` of residentially dominated states. This would be a permutation test.
+
+Since we only have ~1500 rows, we chose a p-value of 0.05.
+
+Doing a permutation test of a 1000 repetitions, we got a p-value of 0.025, which is lower than our agreed p-value. Hence, we reject the null.
+
+<iframe
+  src="assets/hypo_test.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 
 ---
