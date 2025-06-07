@@ -185,7 +185,7 @@ Doing a permutation test of a 1000 repetitions, we got a p-value of 0.025, which
 
 ## Framing a Prediction Problem
 
-
+We want to predict the `'OUTAGE.DURATION'` using mainly `'U.S._STATE'`, `'CLIMATE.REGION'`, and `'CAUSE.CATEGORY'`. Since these all are categorical columns, we would want to use one-hot encoding for this problem. Since our prediction is a number, this would be a regression model. We chose to predict this variable so that people could know if their neighborhood or industrial buildings might need to brace for longer durations of no power. We can use the F-1 score to check our model.
 
 
 ---
