@@ -77,12 +77,15 @@ There are 1534 rows in our dataset with 55 columns (variables). We plan to focus
 
 ### Bivariate Analysis
 
-<iframe
-  src="assets/avg_dur_fig.html"
-  width="800"
-  height="600"
-  frameborder="0"
-></iframe>
+<p>
+    <iframe
+    src="assets/avg_dur_fig.html"
+    width="800"
+    height="600"
+    frameborder="0"
+    style="display: block; margin: auto;">
+    ></iframe>
+</p>
 
 <iframe
   src="assets/outages_per_region_fig.html"
