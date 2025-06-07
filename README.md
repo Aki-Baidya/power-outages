@@ -195,7 +195,7 @@ We want to predict the `'OUTAGE.DURATION'` using mainly `'U.S._STATE'`, `'CLIMAT
 
 ## Baseline Model
 
-
+We first one-hot encoded `'U.S._STATE'`, `'CLIMATE.REGION'`, `'CAUSE.CATEGORY'`. Then, we used lasso regression. 
 
 
 ---
