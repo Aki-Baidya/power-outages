@@ -66,7 +66,7 @@ There are 1534 rows in our dataset with 55 columns (variables). We plan to focus
 ></iframe>
 
 <iframe
-  src="assets/num-outages.html"
+  src="assets/num_outages.html"
   width="800"
   height="600"
   frameborder="0"
