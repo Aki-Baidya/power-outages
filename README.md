@@ -14,6 +14,8 @@ Our research question is, “What variables affect the duration of a power outag
 
 
 There are 1534 rows in our dataset with 55 columns (variables). We plan to focus mainly on these variables:
+
+
 | Column | Description |
 | --- | --- |
 | `'U.S._STATE'` | State the outage occurred in |
@@ -73,8 +75,21 @@ There are 1534 rows in our dataset with 55 columns (variables). We plan to focus
 ></iframe>
 
 
-### Bivariate Analysisß
+### Bivariate Analysis
 
+<iframe
+  src="assets/assets/avg_dur_fig.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
+<iframe
+  src="assets/assets/outages_per_region_fig.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 
 ### Interesting Aggregates
