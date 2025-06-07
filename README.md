@@ -58,6 +58,19 @@ There are 1534 rows in our dataset with 55 columns (variables). We plan to focus
 
 ### Univariate Analysis
 
+<iframe
+  src="assets/pie-chart.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
+<iframe
+  src="assets/num-outages.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 
 ### Bivariate Analysisß
